@@ -9,4 +9,5 @@ learning new technologies, and experimenting with different development tools.
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=thepinak503&show_icons=true&theme=radical" alt="Your GitHub Stats" /> <br>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=thepinak503&layout=compact&theme=radical" alt="Top Langs" />
+  <img src="https://streak-stats.demolab.com?user=thepinak503&theme=solarized-dark&hide_border=true" />
 </p>
