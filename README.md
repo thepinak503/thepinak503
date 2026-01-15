@@ -24,11 +24,7 @@
 ---
 
 ### 📈 GitHub Pulse
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=thepinak503&show_icons=true&theme=tokyonight&hide_border=true" height="150" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=thepinak503&theme=tokyonight&show_icons=true&hide_border=true&layout=compact" height="150" />
-</p>
-
+[![My Awesome Stats](https://awesome-github-stats.azurewebsites.net/user-stats/thepinak503?cardType=github&theme=dark&fontFamily=Cascadia%20Code&preferLogin=false)](https://git.io/awesome-stats-card)
 ---
 
 ### 🌍 Connect
