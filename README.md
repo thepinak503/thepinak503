@@ -32,10 +32,6 @@
 
 ---
 
-### 📈 GitHub Pulse
-[![My Awesome Stats](https://awesome-github-stats.azurewebsites.net/user-stats/thepinak503?cardType=github&theme=dark&fontFamily=Cascadia%20Code&preferLogin=false)](https://git.io/awesome-stats-card)
----
-
 ### 🌍 Connect
 <p align="center">
   <a href="https://twitter.com/pinakdhabu"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/></a>
