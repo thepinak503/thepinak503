@@ -329,7 +329,7 @@ if __name__ == '__main__':
     OWNER_ID = user_data
     formatter('account data', user_time)
     try:
-        total_loc, loc_time = perf_counter(loc_query, ['OWNER', 'COLLABORATOR', 'ORGANIZATION_MEMBER'], 7)
+        total_loc, loc_time = perf_counter(loc_query, ['OWNER'], 7)
         formatter('LOC (cached)', loc_time) if total_loc[-1] else formatter('LOC (no cache)', loc_time)
     except Exception as e:
         total_loc = [0, 0, 0, False]
