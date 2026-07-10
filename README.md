@@ -1,3 +1,12 @@
+<a href="https://github.com/thepinak503/thepinak503">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/thepinak503/thepinak503/main/dark_mode.svg">
+    <img alt="Pinak Dhabu's GitHub Profile README" src="https://raw.githubusercontent.com/thepinak503/thepinak503/main/light_mode.svg">
+  </picture>
+</a>
+
+---
+
 <h1 align="center">👋 Hey, I'm <b>Pinak Dhabu</b></h1>
 
 <p align="center">
