@@ -12,7 +12,7 @@ QUERY_COUNT = {'user_getter': 0, 'follower_getter': 0, 'graph_repos_stars': 0, '
 
 
 def simple_request(func_name, query, variables):
-    request = requests.post('https://api.github.com/graphql', json={'query': query, 'variables':variables}, headers=HEADERS)
+    request = requests.post('https://api.github.com/graphql', json={'query': query, 'variables':variables}, headers=HEADERS, timeout=30)
     if request.status_code == 200:
         return request
     raise Exception(func_name, ' has failed with a', request.status_code, request.text, QUERY_COUNT)
@@ -331,7 +331,7 @@ if __name__ == '__main__':
     try:
         total_loc, loc_time = perf_counter(loc_query, ['OWNER', 'COLLABORATOR', 'ORGANIZATION_MEMBER'], 7)
         formatter('LOC (cached)', loc_time) if total_loc[-1] else formatter('LOC (no cache)', loc_time)
-    except Exception:
+    except Exception as e:
         total_loc = [0, 0, 0, False]
         formatter('LOC (skipped)', 0)
     commit_data, commit_time = perf_counter(commit_counter, 7)
